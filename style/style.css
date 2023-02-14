@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+
+.webstudio-header {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.webstudio-header-logo {
+    padding-left: 75px;
+}
+
+.webstudio-header-menu {
+    width: 361px;
+    height: 24px;
+    font-size: 16px;
+    position: relative;
+    bottom: 12px;
+}
+
+.webstudio-header-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.webstudio-header-menu a {
+    color: #2E2F42;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.webstudio-header-contant {
+    font-size: 16px;
+    padding-top: 15px;
+    margin-left: 335px;
+    position: relative;
+    bottom: 5px;
+}
+
+.webstudio-header-contant a {
+    text-decoration: none;
+    color: #434455;
+}
+
+.webstudio-header-contant li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+/*Effective Solutions for Your Business*/
+
+.webstudio-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    background: #2E2F42;
+}
+
+.webstudio-service-text {
+    width: 496px;
+    height: 120px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    margin-top: 185px;
+    text-align: center;
+}
+
+.webstudio-service-button {
+    border: none;
+    outline: none;
+    background: #4D5AE5;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/*Services*/
+
+.webstudio-services {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    height: 104px;
+}
+
+.webstudio-services-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.webstudio-services-title-1 {
+    position: absolute;
+    left: 325px;
+}
+
+.webstudio-services-title-2 {
+    position: absolute;
+    left: 637px;
+}
+
+.webstudio-services-title-3 {
+    position: absolute;
+    left: 951px;
+}
+
+.webstudio-services-title-4 {
+    position: absolute;
+    left: 1265px;
+}
+
+.webstudio-services-text {
+    width: 264px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+/*Our jobs*/
+
+.webstudio-our-jobs {
+    margin-top: 120px;
+    height: 412px;
+    padding: 25px;
+}
+
+.webstudio-our-jobs-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.webstudio-our-jobs-images {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.webstudio-our-jobs-images-2 {
+    padding-left: 25px;
+}
+
+.webstudio-our-jobs-images-3 {
+    padding-left: 25px;
+}
+
+/*Our team*/
+
+.webstudio-our-team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.webstudio-our-team {
+    background: #F4F4FD;
+    height: 732px;
+    margin-top: 120px;
+    padding: 70px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+}
+
+/*Mark Guerrero*/
+
+.webstudio-our-team-mark {
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.webstudio-our-team-mark-title {
+    text-align: center;
+}
+
+.webstudio-our-team-mark-text {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*Tom Ford*/
+
+.webstudio-our-team-tom {
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 25px;
+}
+
+.webstudio-our-team-tom-title {
+    text-align: center;
+}
+
+.webstudio-our-team-tom-text {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*Camila Garcia*/
+
+.webstudio-our-team-camila {
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 25px;
+}
+
+.webstudio-our-team-camila-title {
+    text-align: center;
+}
+
+.webstudio-our-team-camila-text {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*Daniel Wilson*/
+
+.webstudio-our-team-daniel {
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 25px;
+}
+
+.webstudio-our-team-daniel-title {
+    text-align: center;
+}
+
+.webstudio-our-team-daniel-text {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*Footer*/
+
+.webstudio-footer {
+    height: 310px;
+    background: #2E2F42;
+    padding-left: 160px;
+    padding-top: 100px;
+}
+
+.webstudio-footer-text {
+    width: 264px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7E9FC;
+}
